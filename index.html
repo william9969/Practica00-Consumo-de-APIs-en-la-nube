@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="API.js"></script>
 </head>
 <body>
-    <div>
-        
+    <div class="container">
+        <section>
+            <button id="btnCarros" onclick="obtenerDatos('carros')">Carros</button>
+            <button id="btnMotos" onclick="obtenerDatos('motos')">Motos</button>
+            <button id="btnCamiones" onclick="obtenerDatos('caminhoes')">Camiones</button>
+        </section>
+        <section>
+            <ul id="resultado"></ul>
+        </section>
     </div>
+
 </body>
 </html>
