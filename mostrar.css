@@ -16,7 +16,29 @@ header h1{
 {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: tan;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+
+.container #example_wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container #example {
+    background-color: chocolate;
+    border: white ;
+    color: white;
+    border-radius: 30px;
+}
+.container #example thead{
+    margin-bottom: 10px;
+    border-style: solid 2px white;
+    color: white;
+}
+.container #example tbody{
+    border-style: solid 2px white;
+    color: chocolate;
 }
 
 .salida{
