@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="text/javascript" src="API.js"></script>
-</head>
-<body>
-    <div class="container">
-        <section>
-            <button id="btnCarros" onclick="obtenerDatos('carros')">Carros</button>
-            <button id="btnMotos" onclick="obtenerDatos('motos')">Motos</button>
-            <button id="btnCamiones" onclick="obtenerDatos('caminhoes')">Camiones</button>
-        </section>
-        <section>
-            <ul id="resultado"></ul>
-        </section>
-    </div>
+    <title>Servicios Web</title>
+    <link rel="stylesheet" href="index.css"/>
 
+    <script type="text/javascript" src="API.js"></script>
+
+</head>
+
+<body background="fondo.jpg">
+    <header><h1 id="primero">Consumo API</h1> </header>
+    <div style="height: 50px;"></div>
+
+    <div id="cab">
+        <input type="text" id="buscar" maxlength="50" placeholder="Ingrese ID de la marca o haga click directamente ...."/>
+        <section>
+            
+            <button id="btnCarros" type="submit" name="btnCarros" onclick="pasarDatos('carros')">Carros</button>
+            <button id="btnMotos" type="submit" name="btnMotos" onclick="pasarDatos('motos')">Motos</button>
+            <button id="btnCamiones" type="submit" name="btnCamiones" onclick="pasarDatos('caminhoes')">Camiones</button>
+        </section>
+    </div>   
 </body>
 </html>

@@ -1,0 +1,35 @@
+header{
+    font-size: 50px;
+}
+
+header h1{
+    width: 98%;
+    border-width: 10px;
+    border-style: dotted;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    
+}
+
+.container
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: tan;
+}
+
+.salida{
+    direction: rtl;
+    margin-top: 30px;
+}
+.salida a{
+    padding:20px;
+    margin-right: 30px;
+    border-radius: 30px;
+    border-color: white;
+    background-color:chocolate;
+    color: white;
+    font-size: 15px;
+}
+
